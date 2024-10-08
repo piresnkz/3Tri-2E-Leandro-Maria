@@ -14,6 +14,7 @@
 body{
     font-family: Bai Jamjuree;
     background-color: rgb(227, 228, 228);
+    background-image: url(img/bg-desktop.webp);
 }
 
 footer{
@@ -37,4 +38,32 @@ footer p{
     margin: 1rem;
     background-color: #adc9fd;
     height: 20rem;
+
+}
+
+.cartao-conteudo{
+    text-align: center;
+    height: 100%;
+    background-color: var(--cor-cartao-frente);
+    
+}
+
+.cartao-conteudo h3{
+    background-color: #144480;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    margin: 0.6rem;
+    border: var(--text-color) solid 1px;
+    
+}
+
+.cartao-conteudo-pergunta{
+    color: var(--text-color);
+}
+
+.cartao-conteudo-resposta{
+    color: var(--text-color);
 }
