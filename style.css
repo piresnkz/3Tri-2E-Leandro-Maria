@@ -57,6 +57,7 @@ footer p{
     font-size: 1vw;
     margin: 0.6rem;
     border:  solid 1px var(--text-color);
+    backface-visibility: hidden;
     
 }
 
@@ -69,7 +70,7 @@ footer p{
 }
 
 p{
-    color: wheat
+    color: white
 }
 
 .cartao-conteudo-pergunta p{
@@ -82,9 +83,20 @@ p{
 }
 
 .cartao-conteudo-pergunta, .cartao-conteudo-resposta{
-margin: 2rem;
+    margin: 2rem;
+    backface-visibility: hidden;
 }
 
 .cartao:hover .cartao-conteudo{
     transform: rotateY(180deg);
+}
+
+.cartao-conteudo-resposta{
+    transform: rotateY(180deg);
+}
+
+.cartao-conteudo p{
+    margin-top: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
